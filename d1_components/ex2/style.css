@@ -1,0 +1,79 @@
+body {
+  background: #ef7d73;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-bar {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-right {
+  position: absolute;
+  right: 15px;
+  top: 11px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding-left: 25px;
+  margin: 20px;
+}
+
+.main-strip {
+  background: #ef7d73;
+  height: 80%;
+}
+
+.main-title {
+  font-size: xx-large;
+  color: white;
+}
+.main-description-text {
+  text-align: center;
+  color: white;
+}
+
+.feature-circle {
+  min-width: 250px;
+  min-height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 700px;
+  margin: 20px;
+  background-color: #36394a;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+}
+
+.feature-circle.fe-1 {
+  background-image: url("./img/watermelon.png");
+  background-color: #36394a;
+}
+
+.feature-circle.fe-2 {
+  background-image: url("./img/beach.png");
+  background-color: #e75a59;
+}
+
+.feature-circle.fe-3 {
+  background-image: url("./img/lifesaver.png");
+  background-color: #35ac95;
+}
+
+.feature-title {
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+.feature-text-item{
+  text-align: center;
+  color: white;
+}
