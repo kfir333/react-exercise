@@ -1,0 +1,43 @@
+body {
+  background: #8695a8;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.card-item {
+  height: 80vh;
+  width: 25%;
+  background-color: #ccd7e3;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+  margin: 0 12px;
+  color: dimgray;
+}
+
+.card-item img {
+  width: 140px;
+  height: 140px;
+  margin-top: 50%;
+  border-radius: 500px;
+}
+
+.breadCrumb {
+  width: 4px;
+  height: 4px;
+  border-radius: 500px;
+  background-color: gray;
+  display: inline-block;
+  margin: 2px;
+}
+
+.breadCrumb-selected {
+  background-color: royalblue;
+}
