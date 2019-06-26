@@ -13,7 +13,7 @@ class App extends React.Component {
           <Box boxSize="small" />
           <Box boxSize="medium" />
           <Box boxSize="small" />
-          <Box boxSize="x-small no-margin-left " />
+          <Box boxSize="x-small" />
           <Box boxSize="large" />
         </div>
 
