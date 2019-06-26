@@ -2,10 +2,13 @@ class CardItem extends React.Component {
   render() {
     return (
       <div className="card-item">
-        <img src={this.props.src} />
-        <h4>{this.props.title}</h4>
-        <h5>{this.props.description}</h5>
-        {this.getSelectedBreadCrumb()}
+        <div className="card-content">
+          <img src={this.props.src} />
+          <h3>{this.props.title}</h3>
+          <h4>{this.props.description}</h4>
+          {this.getSelectedBreadCrumb()}
+        </div>
+        
       </div>
     );
   }
@@ -13,13 +16,19 @@ class CardItem extends React.Component {
     return (
       <div>
         <div
-          className={`breadCrumb ${this.props.index === 0 ? "breadCrumb-selected" : ""}`}
+          className={`breadCrumb ${
+            this.props.index === 0 ? "breadCrumb-selected" : ""
+          }`}
         />
         <div
-          className={`breadCrumb ${this.props.index === 1 ? "breadCrumb-selected" : ""}`}
+          className={`breadCrumb ${
+            this.props.index === 1 ? "breadCrumb-selected" : ""
+          }`}
         />
         <div
-          className={`breadCrumb ${this.props.index === 2 ? "breadCrumb-selected" : ""}`}
+          className={`breadCrumb ${
+            this.props.index === 2 ? "breadCrumb-selected" : ""
+          }`}
         />
       </div>
     );
