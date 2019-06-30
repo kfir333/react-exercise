@@ -1,0 +1,39 @@
+body {
+  background: thistle;
+}
+
+#tool-bar {
+  background-color: royalblue;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.profile {
+  background-image: url("./img/user.png");
+}
+
+.star {
+  background-image: url("./img/star.png");
+}
+
+.message {
+  background-image: url("./img/message.png");
+}
+
+.notification-bubble {
+  width: 10px;
+  height: 10px;
+  border-radius: 400px;
+  background-color: white;
+}
+
+#notification-num{
+    font-size: small;
+    position: absolute;
+}
